@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #3b3b98, #8e44ad);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .form input {
+    flex: 1;
+    min-width: 150px;
+    padding: 10px;
+    border: 2px solid #6a89cc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form input:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.8);
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6a89cc, #ff6b6b);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.6);
+  }
+  
+  /* Table Styling */
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-table thead {
+    background: #6a89cc;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .student-table tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .student-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .action-btn {
+    background: #ff6b6b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: background 0.3s;
+  }
+  
+  .action-btn:hover {
+    background: #d64545;
+  }
+  

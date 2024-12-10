@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Database System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Student Database System</h1>
+    <form id="student-form" class="form">
+      <input type="text" id="student-id" placeholder="Student ID" required>
+      <input type="text" id="student-name" placeholder="Name" required>
+      <input type="number" id="student-age" placeholder="Age" required>
+      <input type="text" id="student-grade" placeholder="Grade" required>
+      <button type="submit" class="btn submit-btn">Add Student</button>
+    </form>
+
+    <table id="student-table" class="student-table">
+      <thead>
+        
+          <!-- The <thead> tag defines a set of rows that make up the header of the table. It helps distinguish header information from the body of the table, making it easier for both users and browsers to understand the table structure. -->
+            <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  
+</body>
+</html>
