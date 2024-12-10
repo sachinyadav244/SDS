@@ -11,9 +11,9 @@
     <h1 class="title">Student Database System</h1>
     <form id="student-form" class="form">
       <input type="text" id="student-id" placeholder="Student ID" required>
-      <input type="text" id="student-name" placeholder="Name" required>
+      <input type="text" pattern="[a-zA-Z\s+]*" id="student-name" placeholder="Name" required>
       <input type="number" id="student-age" placeholder="Age" required>
-      <input type="text" id="student-grade" placeholder="Grade" required>
+      <input type="text" pattern="[A-Za-z]*" id="student-grade" placeholder="Grade" required>
       <button type="submit" class="btn submit-btn">Add Student</button>
     </form>
 
